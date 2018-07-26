@@ -9,6 +9,50 @@ header {
 }
 
 /* navbar */
+nav.navbar-custom {
+   background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.5));
+   padding: 30px;
+   transition: all .7s;
+}
+
+.menu-item {
+   font-size: 13px;
+   letter-spacing: 1px;
+   color: #eee;
+   transition: color .5s;
+}
+
+.menu-item:hover {
+   color: #70aed2;
+}
+
+.nav-active a {
+   color: #70aed2;
+}
+
+.line1, .line2, .line3 {
+   width: 23px;
+   height: 3px;
+   margin: 5px;
+   transition: all .4s;
+}
+
+.rotate .line1 {
+   transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.rotate .line2 {
+   opacity: 0;
+}
+
+.rotate .line3 {
+   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.navbar-shrink {
+   padding: 5px 30px !important;
+   background: linear-gradient(rgba(, 0, 0, 0.7),rgba(17, 17, 17, 0.8)) !important;
+}
 /* end navbar */
 
 /* banner */
@@ -45,3 +89,4 @@ header {
 /* end banner */
 
 /* end header */
+
