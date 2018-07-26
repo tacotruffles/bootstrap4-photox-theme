@@ -134,3 +134,28 @@ nav.navbar-custom {
 }
 /* end mission */
 
+
+/* collection */
+.card-shadow {
+   box-shadow: 5px 8px 20px #444;
+}
+
+.card-heading {
+   position: absolute;
+   top:70%;
+   right: 0%;
+
+   font-size: 14px;
+   letter-spacing: 1px;
+   background: #222;
+   width: 70%;
+
+   cursor: pointer;
+   opacity: .7;
+   transition: all .5s;
+}
+
+.card-heading:hover {
+   opacity: 1;
+}
+/* end collection */
