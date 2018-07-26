@@ -5,12 +5,12 @@ body {
 /* header */
 header {
    height: 100vh;
-   background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)), url(images/header-img.jpeg) no-repeat center center / cover;
+   background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7)), url(images/header-img.jpeg) no-repeat center center / cover;
 }
 
 /* navbar */
 nav.navbar-custom {
-   background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.5));
+   background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5));
    padding: 30px;
    transition: all .7s;
 }
