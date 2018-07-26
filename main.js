@@ -14,6 +14,7 @@ $(document).ready(function() {
     }
   });
 
+  // Mission Statment section animation
   $(window).scroll(function() {
     let position = $(this).scrollTop();
     if (position >= 650) {
@@ -25,6 +26,7 @@ $(document).ready(function() {
     }
   });
 
+  // Gallery category Filter
   $(".gallery-list-item").click(function() {
     let filter = $(this).attr("data-filter");
     console.log(filter);

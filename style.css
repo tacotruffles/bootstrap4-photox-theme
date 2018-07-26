@@ -15,6 +15,11 @@ nav.navbar-custom {
    transition: all .7s;
 }
 
+/* get rid of that annoying blue shadow around this buttton! */
+.nav-button:focus {
+   outline: none;
+}
+
 .menu-item {
    font-size: 13px;
    letter-spacing: 1px;
@@ -178,3 +183,9 @@ nav.navbar-custom {
    color: #70aed2;
 }
 /* end gallery */
+
+/* customers */
+.customers {
+   background-color: #151f20;
+}
+/* end customers */
