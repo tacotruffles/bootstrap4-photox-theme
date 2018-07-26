@@ -24,4 +24,26 @@ $(document).ready(function() {
       $(".mission-text").removeClass("fromRight");
     }
   });
+
+  $(".gallery-list-item").click(function() {
+    let filter = $(this).attr("data-filter");
+    console.log(filter);
+    if (filter === "all") {
+      $(".filter").show(300);
+    } else {
+      $(".filter")
+        .not("." + filter)
+        .hide(300);
+      $(".filter")
+        .filter("." + filter)
+        .show(300);
+    }
+  });
+
+  $(".gallery-list-item").click(function() {
+    $(this)
+      .addClass("active-item")
+      .siblings()
+      .removeClass("active-item");
+  });
 });
